@@ -23,6 +23,8 @@ friends = ["Inzam", "Al-amin", "Al-amin-E",
            "Monju", "Monju-E", "Tuhin", "Tuhin-E",]
 cars = [911, 471, 158, 177, 28, 228, 255,]
 cars = [911, 471, 158, 177, 28, 228, 255,]
+cars = [911, 471, 158, 177, 28, 228, 255,]
+cars = [911, 471, 158, 177, 28, 228, 255,]
 
 print(friends)
 friends.insert(0, "Tuhin-vai")
