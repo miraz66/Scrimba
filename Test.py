@@ -13,4 +13,6 @@ print(msg.replace("Strings", "Release"))
 
 name = input("Enter your name: ")
 distance_km = input("Enter your distance_km: ")
-distance_mi = float(distance_km) / 1000
+distance_mi = float(distance_km) / 1.609
+
+print(f"Hi {name.title()}! {distance_km} Km is equivalent to {distance_mi} miles.")
