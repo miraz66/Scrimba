@@ -24,11 +24,8 @@ friends = ["Inzam", "Al-amin", "Al-amin-E",
 cars = [911, 471, 158, 177, 28, 228, 255,]
 
 print(friends)
-friends.sort()
-print(friends)
-friends.sort(reverse=True)
-print(friends)
-friends.reverse()
-print(friends)
 
+
+friends.insert(0, "Tuhin-vai")
+print(friends)
 print(sum(cars))
