@@ -11,8 +11,6 @@ print(msg.replace("Strings", "Release"))
 
 # print("Hello " + name + "! You are " + age + " years old.")
 
-num1 = input("Enter your Digits: ")
-num2 = input("Enter your second digit: ")
-
-answer = float(num1) + float(num2)
-print(answer)
+name = input("Enter your name: ")
+distance_km = input("Enter your distance_km: ")
+distance_mi = float(distance_km) / 1000
