@@ -31,4 +31,4 @@ print(friends)
 friends.reverse()
 print(friends)
 
-print(max(cars))
+print(sum(cars))
