@@ -23,10 +23,7 @@ friends = ["Inzam", "Al-amin", "Al-amin-E",
            "Monju", "Monju-E", "Tuhin", "Tuhin-E",]
 cars = [911, 471, 158, 177, 28, 228, 255,]
 
-print(friends)
-friends.insert(0, "Tuhin-vai")
-friends[2] = "Tuhin-3"
-friends.pop()
+del friends
 
 print(friends)
 print(sum(cars))
