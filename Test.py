@@ -80,6 +80,8 @@ sales_w2 = [12, 4, 26, 10, 7, 28]
 sales_w2 = [12, 4, 26, 10, 7, 28]
 sales_w2 = [12, 4, 26, 10, 7, 28]
 sales_w2 = [12, 4, 26, 10, 7, 28]
+sales_w2 = [12, 4, 26, 10, 7, 28]
+sales_w2 = [12, 4, 26, 10, 7, 28]
 sales = []
 new_day = input('Enter #of lemonades for new day: ')
 sales_w2.append(new_day)
