@@ -30,9 +30,10 @@ print(msg.replace("Strings", "Release"))
 
 sales_w1 = [7, 3, 42, 19, 15, 35, 9]
 sales_w2 = [12, 4, 26, 10, 7, 28]
+sales_w2 = [12, 4, 26, 10, 7, 28]
+sales_w2 = [12, 4, 26, 10, 7, 28]
 sales = []
 new_day = input('Enter #of lemonades for new day: ')
-float(new_day)
 sales_w2.append(new_day)
 
 print(sales_w2)
