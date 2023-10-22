@@ -19,30 +19,19 @@ print(msg.replace("Strings", "Release"))
 # print(f"Hi {name.title()}! {distance_km} Km is equivalent to {round(distance_mi,1)} miles.")
 
 # -----Array of distances -----
-friends = ["Inzam", "Al-amin", "Al-amin-E",
-           "Monju", "Monju-E", "Tuhin", "Tuhin-E",]
+# friends = ["Inzam", "Al-amin", "Al-amin-E",
+#            "Monju", "Monju-E", "Tuhin", "Tuhin-E",]
 
-cars = [911, 471, 158, 177, 28, 228, 255,]
+# cars = [911, 471, 158, 177, 28, 228, 255,]
 
 
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
-cars = [911, 471, 158, 177, 28, 228, 255,]
+# print(friends)
+# print(sum(cars))
 
-del friends
+sales_w1 = [7, 3, 42, 19, 15, 35, 9]
+sales_w2 = [12, 4, 26, 10, 7, 28]
+sales = []
+new_day = input('Enter #of lemonades for new day: ')
+sales_w2.append(new_day)
 
-print(friends)
-print(sum(cars))
+print(sales_w2)
