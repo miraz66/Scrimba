@@ -1,5 +1,5 @@
-def greetings():
-    print("Hello world!")
+def greetings(name, age):
+    print(f"Hello {name}, you are {age}!")
 
 
-greetings()
+greetings("Miraz", "27")
