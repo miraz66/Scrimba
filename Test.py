@@ -55,6 +55,6 @@ print(msg.replace("Strings", "Release"))
 # print(" ".join(msg.split()))
 
 csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
-print(",".join(csv.split(":")).split(";"))
-
-friends_list = ['Exercise: fill me with names']
+print(','.join(csv.split(';')).split(':'))
+friends_list = (','.join(','.join(csv.split(';')).split(':'))).split(',')
+print(friends_list)
