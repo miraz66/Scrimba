@@ -60,8 +60,20 @@ print(msg.replace("Strings", "Release"))
 # print(csv.replace(";", ",").replace(":", ",").split(','))
 
 
-friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham']
-friends_tuple = ('John', 'Michael', 'Terry', 'Eric', 'Graham')  # Tuples Array
+# friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham']
+# friends_tuple = ('John', 'Michael', 'Terry', 'Eric', 'Graham')  # Tuples Array
+# friends_set = {'John', 'Michael', 'Terry', 'Eric', 'Graham', 'Eric'}
+# my_friends_set = {'Reg', 'Loretta', 'Colin', 'Eric', 'Graham', 'Terry'}
 
-print(friends)
-print(friends_tuple)
+# print(friends)
+# print(friends_tuple)
+# print(friends_set.union(my_friends_set))
+
+
+friends = {'John', 'Michael', 'Terry', 'Eric', 'Graham'}
+my_friends = {'Reg', 'Loretta', 'Colin', 'John', 'Graham'}
+cars = ['900', '420', 'V70', '911', '996',
+        'V90', '911', '911', 'S', '328', '900']
+
+print("Eric" in friends and "John" in friends and "Terry" in friends)
+print(friends.intersection(my_friends))
