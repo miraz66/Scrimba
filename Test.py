@@ -46,9 +46,15 @@ print(msg.replace("Strings", "Release"))
 # print(f'Combined profit:$ {worst_day_prof + best_day_prof}')
 
 
-msg = 'Welcome to Python 101: Split and Join'
-csv = 'Eric,John,Michael,Terry,Graham'
-friends_list = ['Eric', 'John', 'Michael', 'Terry', 'Graham']
-print('Welcome to Python 101: Split and Join')
+# msg = 'Welcome to Python 101: Split and Join'
+# csv = 'Eric,John,Michael,Terry,Graham'
+# friends_list = ['Eric', 'John', 'Michael', 'Terry', 'Graham']
+# print('Welcome to Python 101: Split and Join')
 
-print(" ".join(friends_list))
+# print(" ".join(friends_list))
+# print(" ".join(msg.split()))
+
+csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
+print(",".join(csv.split(":")).split(";"))
+
+friends_list = ['Exercise: fill me with names']
