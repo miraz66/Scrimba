@@ -36,5 +36,7 @@ sales_w2.append(int(new_day))
 # sales.extend(sales_w1)
 # sales.extend(sales_w2)
 sales = sales_w1 + sales_w2
-sales = sorted(sales)
+sales.sort()
 print(sales)
+worst_day_prof = sales[0] * 1.5
+print(worst_day_prof)
