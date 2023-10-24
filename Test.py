@@ -54,7 +54,14 @@ print(msg.replace("Strings", "Release"))
 # print(" ".join(friends_list))
 # print(" ".join(msg.split()))
 
-csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
-friends_list = (','.join(','.join(csv.split(';')).split(':')).split(','))
-print(friends_list)
-print(csv.replace(";", ",").replace(":", ",").split(','))
+# csv = 'Eric,John,Michael,Terry,Graham:TerryG;Brian'
+# friends_list = (','.join(','.join(csv.split(';')).split(':')).split(','))
+# print(friends_list)
+# print(csv.replace(";", ",").replace(":", ",").split(','))
+
+
+friends = ['John', 'Michael', 'Terry', 'Eric', 'Graham']
+friends_tuple = ('John', 'Michael', 'Terry', 'Eric', 'Graham')  # Tuples Array
+
+print(friends)
+print(friends_tuple)
