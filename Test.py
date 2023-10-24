@@ -33,7 +33,8 @@ sales_w2 = [12, 4, 26, 10, 7, 28]
 sales = []
 new_day = input('Enter #of lemonades for new day: ')
 sales_w2.append(int(new_day))
-sales.extend(sales_w1)
-sales.extend(sales_w2)
-
+# sales.extend(sales_w1)
+# sales.extend(sales_w2)
+sales = sales_w1 + sales_w2
+sales = sorted(sales)
 print(sales)
