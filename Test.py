@@ -28,19 +28,27 @@ print(msg.replace("Strings", "Release"))
 # print(friends)
 # print(sum(cars))
 
-sales_w1 = [7, 3, 42, 19, 15, 35, 9]
-sales_w2 = [12, 4, 26, 10, 7, 28]
-sales = []
-new_day = input('Enter #of lemonades for new day: ')
-sales_w2.append(int(new_day))
-sales.extend(sales_w1)
-sales.extend(sales_w2)
-sales.sort()
+# sales_w1 = [7, 3, 42, 19, 15, 35, 9]
+# sales_w2 = [12, 4, 26, 10, 7, 28]
+# sales = []
+# new_day = input('Enter #of lemonades for new day: ')
+# sales_w2.append(int(new_day))
+# sales.extend(sales_w1)
+# sales.extend(sales_w2)
+# sales.sort()
 
-print(sales)
+# print(sales)
 
-worst_day_prof = min(sales) * 1.5
-best_day_prof = max(sales) * 1.5
-print(f'Worst day profit:$ {worst_day_prof}')
-print(f'Best day profit:$ {best_day_prof}')
-print(f'Combined profit:$ {worst_day_prof + best_day_prof}')
+# worst_day_prof = min(sales) * 1.5
+# best_day_prof = max(sales) * 1.5
+# print(f'Worst day profit:$ {worst_day_prof}')
+# print(f'Best day profit:$ {best_day_prof}')
+# print(f'Combined profit:$ {worst_day_prof + best_day_prof}')
+
+
+msg = 'Welcome to Python 101: Split and Join'
+csv = 'Eric,John,Michael,Terry,Graham'
+friends_list = ['Eric', 'John', 'Michael', 'Terry', 'Graham']
+print('Welcome to Python 101: Split and Join')
+
+print(" ".join(friends_list))
