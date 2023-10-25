@@ -89,3 +89,5 @@ print(friends ^ my_friends)
 cars_no_dupl = list(set(tuple(cars)))
 print(cars_no_dupl)
 '''
+
+cars = [911, 471, 158, 177, 28, 228, 255,]
