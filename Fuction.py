@@ -55,3 +55,5 @@ else:
 num1 = float(input('Enter first number: '))
 num1 = float(input('Enter first number: '))
 num1 = float(input('Enter first number: '))
+num1 = float(input('Enter first number: '))
+num1 = float(input('Enter first number: '))
