@@ -53,3 +53,5 @@ else:
         print('Input error!')
 
 num1 = float(input('Enter first number: '))
+num1 = float(input('Enter first number: '))
+num1 = float(input('Enter first number: '))
