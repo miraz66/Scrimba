@@ -61,3 +61,5 @@ array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion
 array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
 array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
 array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
+array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
+array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
