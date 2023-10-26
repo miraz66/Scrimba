@@ -51,3 +51,5 @@ else:
         print(f'Answer is: {num1 / num2}')
     else:
         print('Input error!')
+
+num1 = float(input('Enter first number: '))
