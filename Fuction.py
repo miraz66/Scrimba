@@ -86,4 +86,5 @@ guess_number = 1
 
 while guess_number <= guess_limit:
     guess = int(
+        input(f'Guess # {guess_number } a number 1-20: last guess:{guess} '))
 4
