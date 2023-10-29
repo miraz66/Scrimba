@@ -65,9 +65,7 @@ num = 12
 guess = 0
 guess_limit = 3
 guess_number = 1
-guess = int(
-    input(f'Guess # {guess_number } a number 1-20: last guess:{guess} '))
-guess_number += 1
+guess = int(input(f'Guess a number 1-100: '))
 
 while guess_number <= guess_limit:
 
