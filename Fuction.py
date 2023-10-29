@@ -94,4 +94,5 @@ while guess_number <= guess_limit:
         print(f'No, not {guess}!')
         guess_number += 1
 if guess != num:
+    print(f'Sorry you lose! It was {num}')
 4
