@@ -81,3 +81,4 @@ if guess != num:
 
 num = 12
 guess = 0
+guess_limit = 3
