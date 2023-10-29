@@ -53,6 +53,7 @@ else:
         print('Input error!')
 '''
 
+# ----------------While Loop----------------
 '''
 i = 0
 while i < 5:
@@ -61,7 +62,7 @@ while i < 5:
 
 '''
 
-num = 12
+'''num = 12
 guess = 0
 guess_limit = 3
 guess_number = 1
@@ -80,4 +81,13 @@ while guess_number <= guess_limit:
         break
 
 if guess != num:
-    print(f'Sorry you lose! It was {num}')
+    print(f'Sorry you lose! It was {num}')'''
+
+
+# -----------------For Loop -----------------
+friends = {'John', 'Terry', 'Eric', 'Michael', 'George'}
+
+for friend in friends:
+    print(friend)
+
+print("For Loops")
