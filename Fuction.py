@@ -60,7 +60,7 @@ while i < 5:
     print(f'{i}.' + '*' * i + 'while loop are awesome' + '*' * i)
 
 '''
-
+'''
 num = 12
 guess = 0
 guess_limit = 3
@@ -77,3 +77,6 @@ while guess_number < guess_limit:
         guess_number += 1
 if guess != num:
     print(f'Sorry you lose! It was {num}')
+'''
+
+num = 12
