@@ -32,7 +32,7 @@ else:
     print("Shirt is fine!")
 '''
 
-
+'''
 mode = input(
     'Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion: ')
 num1 = float(input('Enter first number: '))
@@ -51,17 +51,9 @@ else:
         print(f'Answer is: {num1 / num2}')
     else:
         print('Input error!')
+'''
 
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
-array = "Enter math operation(+,-,*,/) or f for Celsius to Fahrenheit conversion:"
+i = 0
+while i < 5:
+    i += 1
+    print(f'{i}.' + '*' * i + 'while loop are awesome' + '*' * i)
