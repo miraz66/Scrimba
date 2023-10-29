@@ -88,6 +88,9 @@ if guess != num:
 friends = {'John', 'Terry', 'Eric', 'Michael', 'George'}
 
 for friend in friends:
+    if friend == "Terry":
+        print("Found " + friend + "!")
+        break
     print(friend)
 
 print("For Loops")
