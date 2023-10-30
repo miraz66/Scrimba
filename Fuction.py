@@ -101,4 +101,7 @@ msg = 'You are invited to the party on saturday.'
 friends += friends1
 
 for name in friends:
-    print(f"{name}!")
+    print(f"{name.title()}! {msg}")
+
+for index in range(2):
+    friends.append(input('Enter a new friend: '))
