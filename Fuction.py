@@ -105,3 +105,4 @@ for index in range(2):
 
 for num, name in enumerate(friends, 1):
     print(f"{num}.{name.title()}! {msg}")
+    print(f"{num}.{name.title()}! {msg}")
