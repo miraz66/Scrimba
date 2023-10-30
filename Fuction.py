@@ -85,7 +85,7 @@ if guess != num:
 
 
 # -----------------For Loop -----------------
-friends = {'John', 'Terry', 'Eric', 'Michael', 'George'}
+'''friends = {'John', 'Terry', 'Eric', 'Michael', 'George'}
 
 for friend in friends:
     if friend == "Terry":
@@ -93,4 +93,12 @@ for friend in friends:
         break
     print(friend)
 
-print("For Loops")
+print("For Loops")'''
+
+friends = ['John', 'Terry', 'Eric', 'Michael', 'George']
+friends1 = ['John1', 'Terry2', 'Eric3', 'Michael4', 'George5']
+msg = 'You are invited to the party on saturday.'
+friends += friends1
+
+for name in friends:
+    print(f"{name}!")
