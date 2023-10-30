@@ -103,5 +103,5 @@ friends += friends1
 for index in range(2):
     friends.append(input('Enter a new friend: '))
 
-for name in friends:
-    print(f"{name.title()}! {msg}")
+for num, name in enumerate(friends, 1):
+    print(f"{num}.{name.title()}! {msg}")
