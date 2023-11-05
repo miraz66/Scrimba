@@ -109,3 +109,5 @@ for num, name in enumerate(friends, 1):
 friends1 = ['John1', 'Terry2', 'Eric3', 'Michael4', 'George5']
 friends1 = ['John1', 'Terry2', 'Eric3', 'Michael4', 'George5']
 friends1 = ['John1', 'Terry2', 'Eric3', 'Michael4', 'George5']
+friends1 = ['John1', 'Terry2', 'Eric3', 'Michael4', 'George5']
+friends1 = ['John1', 'Terry2', 'Eric3', 'Michael4', 'George5']
