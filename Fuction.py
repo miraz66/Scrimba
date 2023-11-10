@@ -119,3 +119,12 @@ print(list(enumerate(friends, 100)))'''
 
 '''for num, letter in enumerate("Md.Mirajul islam", start=1):
     print(num, letter)'''
+
+'''my_list = [1, 5, 3, 7, 2]
+my_dict = {'car': 4, 'dog': 2, 'add': 3, 'bee': 1}
+my_tuple = ('d', 'c', 'e', 'a', 'b')
+my_string = 'python'
+
+print(sorted(my_dict.items()))
+print(my_list[::-1])
+print(list(reversed(my_list)))'''
