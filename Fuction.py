@@ -128,3 +128,12 @@ my_string = 'python'
 print(sorted(my_dict.items()))
 print(my_list[::-1])
 print(list(reversed(my_list)))'''
+
+
+'''my_list = [1, -4,  5, 0, -3, 7, -2, -5]
+my_llist = [['car', 4, 65, 100], ['dog', 2, 30, 500],
+            ['add', 3, 10, 200], ['bee', 1, 24, 400]]
+
+
+print(sorted(my_list, key=abs))
+print(sorted(my_llist, key=lambda item: item[3]))'''
