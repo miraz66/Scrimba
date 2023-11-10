@@ -163,6 +163,8 @@ life_of_brian = {'Brian': 33, 'Reg': 35,
                  'Stan/Loretta': 32, 'Biccus Diccus': 45}
 life_of_brian = {'Brian': 33, 'Reg': 35,
                  'Stan/Loretta': 32, 'Biccus Diccus': 45}
+life_of_brian = {'Brian': 33, 'Reg': 35,
+                 'Stan/Loretta': 32, 'Biccus Diccus': 45}
 
 print('Arthur' in holy_grail)
 if 'Arthur' not in python:
