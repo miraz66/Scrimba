@@ -94,3 +94,14 @@ for friend in friends:
     print(friend)
 
 print("For Loops")'''
+
+'''friends = ['John', 'Terry', 'Eric', 'Michael', 'George']
+friends1 = ['John1', 'Terry2', 'Eric3', 'Michael4', 'George5']
+msg = 'You are invited to the party on saturday.'
+friends += friends1
+
+for index in range(2):
+    friends.append(input('Enter a new friend: '))
+
+for num, name in enumerate(friends, 1):
+    print(f"{num}.{name.title()}! {msg}")'''
