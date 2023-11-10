@@ -158,3 +158,14 @@ life_of_brian = {'Brian': 33, 'Reg': 35,
 print('Arthur' in holy_grail)
 if 'Arthur' not in python:
     print('He\'s not here!')
+people = {}
+people1 = {}
+people2 = {}
+people.update(python)
+people.update(holy_grail)
+people.update(life_of_brian)
+
+
+for groups in (python, holy_grail):
+    people1.update(groups)
+print(people1)
