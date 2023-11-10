@@ -113,12 +113,9 @@ efriends = [(51, 'Brian'), (52, 'Judith'), (53, 'Reg'),
 for num, friend in enumerate(friends, 2):
     print(num, friend)
 
+print(type(enumerate(friends)))
+print(list(enumerate(friends, 100)))'''
 
 
-
-
-
-
-
-
-
+'''for num, letter in enumerate("Md.Mirajul islam", start=1):
+    print(num, letter)'''
