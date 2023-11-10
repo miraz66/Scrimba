@@ -105,3 +105,20 @@ for index in range(2):
 
 for num, name in enumerate(friends, 1):
     print(f"{num}.{name.title()}! {msg}")'''
+
+'''friends = ['Brian', 'Judith', 'Reg', 'Loretta', 'Colin']
+efriends = [(51, 'Brian'), (52, 'Judith'), (53, 'Reg'),
+            (54, 'Loretta'), (55, 'Colin')]
+
+for num, friend in enumerate(friends, 2):
+    print(num, friend)
+
+
+
+
+
+
+
+
+
+
