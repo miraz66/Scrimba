@@ -137,3 +137,12 @@ my_llist = [['car', 4, 65, 100], ['dog', 2, 30, 500],
 
 print(sorted(my_list, key=abs))
 print(sorted(my_llist, key=lambda item: item[3]))'''
+
+'''movie = {
+    'title': 'Life of Brian',
+    'year': 1979,
+    'cast': ['John', 'Eric', 'Michael', 'George', 'Terry']
+}
+print(movie.get('', "Not Fount!",))
+for key, value in movie.items():
+    print(key, value)'''
