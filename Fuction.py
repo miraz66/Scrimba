@@ -164,8 +164,11 @@ people2 = {}
 people.update(python)
 people.update(holy_grail)
 people.update(life_of_brian)
+print(sorted(people))
 
-
-for groups in (python, holy_grail):
+for groups in (python, holy_grail, life_of_brian):
     people1.update(groups)
-print(people1)
+print(sorted(people1))
+
+people2 = {**python, **holy_grail, **life_of_brian}
+print(sorted(people2))
