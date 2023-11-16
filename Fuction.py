@@ -172,3 +172,9 @@ print(sorted(people1))
 
 people2 = {**python, **holy_grail, **life_of_brian}
 print(sorted(people2))
+
+print('The sum of the ages: ', sum(people.values()))
+print('The sum of the ages: ', sum(people.values()))
+print('The sum of the ages: ', sum(people.values()))
+print('The sum of the ages: ', sum(people.values()))
+print(people.values())
